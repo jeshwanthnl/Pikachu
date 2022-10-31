@@ -554,6 +554,8 @@ def main():
     pikachu = Pikachu()
     pikachu.start()
     turtle.mainloop()
+    getPosition(100,-300)
+    write('by jeshwanth', font=("Bradley Hand ITC", 30, "bold"))
     
 
 if __name__ == '__main__':
